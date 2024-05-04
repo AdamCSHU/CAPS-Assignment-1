@@ -1,0 +1,21 @@
+﻿C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppBuild.targets(513,5): warning MSB8028: The intermediate directory (x64\Debug\) contains files shared from another project (Caps assignment TCPServerMultirhreaded.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  main.cpp
+  TCPServer.cpp
+C:\Users\Eva\Documents\University\Computer Science Year 3\Concurrent and parallel systems\TCPServer-Caps-Assignment\Assignment\TCPServerMultithreaded\TCPServerMutithreaded\TCPServer.cpp(270,33): warning C4267: 'argument': conversion from 'size_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\Eva\Documents\University\Computer Science Year 3\Concurrent and parallel systems\TCPServer-Caps-Assignment\Assignment\TCPServerMultithreaded\TCPServerMutithreaded\TCPServer.cpp(276,61): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Eva\Documents\University\Computer Science Year 3\Concurrent and parallel systems\TCPServer-Caps-Assignment\Assignment\TCPServerMultithreaded\TCPServerMutithreaded\TCPServer.cpp(285,30): warning C4267: 'argument': conversion from 'size_t' to 'const _Elem', possible loss of data
+          with
+          [
+              _Elem=char
+          ]
+C:\Users\Eva\Documents\University\Computer Science Year 3\Concurrent and parallel systems\TCPServer-Caps-Assignment\Assignment\TCPServerMultithreaded\TCPServerMutithreaded\TCPServer.cpp(286,33): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Eva\Documents\University\Computer Science Year 3\Concurrent and parallel systems\TCPServer-Caps-Assignment\Assignment\TCPServerMultithreaded\TCPServerMutithreaded\TCPServer.cpp(306,61): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned int', possible loss of data
+  TestHarness.cpp
+  Generating Code...
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/PROFILE' specification
+RequestParser.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/OPT:REF' specification
+  TCPServerMutithreaded.vcxproj -> C:\Users\Eva\Documents\University\Computer Science Year 3\Concurrent and parallel systems\TCPServer-Caps-Assignment\Assignment\TCPServerMultithreaded\x64\Debug\TCPServerMultiThreadedCAPS.exe
